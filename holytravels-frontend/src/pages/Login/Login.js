@@ -10,7 +10,7 @@ export default function Login(){
   return (
     <>
     <Box sx={{width: screensize.width , height : screensize.height , justifyContent:'center' , alignItems:'center' , display : 'flex'} }>
-    <LoginCard sx={{ maxWidth: 345 }} />
+    <LoginCard  />
     </Box>
     </>
   );
