@@ -68,7 +68,7 @@ export const Destinations = () => {
   return (
     <Stack direction={"column"} justifyContent={"center"} padding={"5%"} style={{ backgroundColor: beigeColor }}>
       <Stack alignItems={"center"}>
-        <Typography variant="h4" fontWeight={600}>
+        <Typography variant="h4" fontWeight={600} alignItems={"center"}>
           Explore Natural Wonders
         </Typography>
       </Stack>
@@ -87,14 +87,14 @@ export const Destinations = () => {
         </Grid>
         {numNaturalWonders < naturalWonders.length && (
           <Stack alignItems="center">
-            <Button variant="contained" onClick={handleViewMoreNaturalWonders}>
+            <Button variant="contained" onClick={handleViewMoreNaturalWonders} marginTop={'20px'}>
               View More
             </Button>
           </Stack>
         )}
       </Stack>
       <Stack>
-        <Typography variant="h4" fontWeight={600} alignItems={"center"}>
+        <Typography variant="h4" fontWeight={600} alignItems={"center"} textAlign={"center"} marginTop={'20px'}>
           Explore Cultural Places
         </Typography>
       </Stack>
@@ -116,18 +116,20 @@ export const Destinations = () => {
         </Grid>
         {numCulturalPlaces < culturalPlaces.length && (
           <Stack alignItems="center">
-            <Button variant="contained" onClick={handleViewMoreCulturalPlaces}>
+            <Button variant="contained" style={{  marginTop:'20px'}} onClick={handleViewMoreCulturalPlaces}>
               View More
+             
             </Button>
+            
           </Stack>
         )}
       </Stack>
       <Stack>
-        <Typography variant="h4" fontWeight={600} alignItems={"center"}>
+        <Typography variant="h4" fontWeight={600} alignItems={"center"}textAlign={"center"} marginTop={'20px'}>
           Explore Adventurous Places
         </Typography>
       </Stack>
-      <Stack marginTop={"50px"}>
+      <Stack marginTop={"100px"}>
         <Grid
           container
           justifyContent={"center"}
@@ -142,8 +144,9 @@ export const Destinations = () => {
         </Grid>
         {numAdventurousPlaces < adventurousPlaces.length && (
           <Stack alignItems="center">
-            <Button variant="contained" onClick={handleViewMoreAdventurousPlaces}>
+            <Button variant="contained" onClick={handleViewMoreAdventurousPlaces} marginTop={'20px'}>
               View More
+             
             </Button>
           </Stack>
         )}

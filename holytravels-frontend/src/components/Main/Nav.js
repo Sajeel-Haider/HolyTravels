@@ -1,6 +1,6 @@
 import { Stack, Typography } from "@mui/material";
 import { NavLink } from "react-router-dom";
-import holyLogo from "../../assets/holy travels-logos/holyLogo.png";
+import holyLogo from "../../assets/holy travels-logos/OIG1.jpg"
 export const Nav = () => {
   return (
     <Stack
