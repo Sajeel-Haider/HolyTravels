@@ -1,15 +1,15 @@
 import { Stack, Typography } from "@mui/material";
 import { NavLink } from "react-router-dom";
-
+import holyLogo from "../../assets/holy travels-logos/holyLogo.png";
 export const Nav = () => {
   return (
     <Stack
       direction={"row"}
-      sx={{ justifyContent: "space-between" }}
+      sx={{ justifyContent: "space-between", alignItems: "center" }}
       padding={"20px"}
     >
       <Stack>
-        <Typography variant="h6">HolyTravels</Typography>
+        <img src={holyLogo} alt="" width="100px" />
       </Stack>
       <Stack direction={"row"} spacing={3}>
         <NavLink to="/tourism">
