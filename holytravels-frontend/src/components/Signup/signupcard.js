@@ -9,7 +9,7 @@ import { Box } from "@mui/material";
 import { Link } from '@mui/material';
 
 
-export default function LoginCard() {
+export default function SigninCard() {
   return (
     <Box sx={{ flexDirection : 'column'  , Width : 10 , display : 'flex' , gap : 2 }} >
     <Card sx={{ border : 1 , borderColor : '#b49164' , padding : "10%" ,  }}>
@@ -19,17 +19,12 @@ export default function LoginCard() {
         </Typography>
         <TextField variant='outlined' label="UserName" ></TextField>
         <TextField variant='outlined' label="Password" ></TextField>
+        <TextField variant='outlined' label="UserName" ></TextField>
+        <TextField variant='outlined' label="Password" ></TextField>
       </CardContent>
       <CardActions sx={{  marginBottom : 2}} >
-        <Button variant="contained" size='large' sx={{backgroundColor : '#b49164' , minWidth : 1 }} >Log in </Button>
+        <Button variant="contained" size='large' sx={{backgroundColor : '#b49164' , minWidth : 1 }} >Sign in </Button>
       </CardActions>
-    </Card>
-    <Card sx={{marginTop : 2  , border : 1 , borderColor : '#b49164'}}>
-        <CardContent>
-            <Typography>
-              Don't have an account? <Link underline='none' sx={{color : '#b49164'}}>Sign up</Link>
-            </Typography>
-        </CardContent>
     </Card>
     </Box>
   );
