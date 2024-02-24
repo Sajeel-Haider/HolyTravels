@@ -22,6 +22,11 @@ export const Nav = () => {
             Umrah/Hajj Guide
           </Typography>
         </NavLink>
+        <NavLink to="/faq">
+          <Typography variant="body1" sx={{ color: "black" }}>
+            FAQ
+          </Typography>
+        </NavLink>
         <NavLink to="/login">
           <Typography variant="body1" sx={{ color: "black" }}>
             Login
