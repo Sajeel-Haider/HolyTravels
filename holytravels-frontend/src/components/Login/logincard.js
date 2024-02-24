@@ -7,7 +7,7 @@ import { TextField } from '@mui/material';;
 
 export default function LoginCard() {
   return (
-    <Card sx={{ maxWidth: 345 , justifyContent:'center' , alignItems:'center'}}>
+    <Card >
       <CardContent>
         <TextField variant='outlined' label="UserName"></TextField>
       </CardContent>
