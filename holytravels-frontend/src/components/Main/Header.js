@@ -4,7 +4,10 @@ import lamp from "../../assets/lamp.jpg";
 import { round } from "@floating-ui/utils";
 export const Header = () => {
   return (
-    <Stack direction={{ xs: "column", md: "row" }}>
+    <Stack
+      direction={{ xs: "column", md: "row" }}
+      sx={{ backgroundColor: "#ccb393" }}
+    >
       <Stack width={{ md: "50%", xs: "100%" }} padding={"10%"}>
         <Stack spacing={3}>
           <Typography variant="h3">Holy Travels</Typography>
