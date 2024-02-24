@@ -1,3 +1,5 @@
+const  mongoose = require( 'mongoose');
+
 //Define customers schemma 
 const Customer = new mongoose.Schema (
     {

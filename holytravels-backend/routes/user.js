@@ -1,5 +1,6 @@
 const express = require("express");
 const router = express.Router();
+const{ customer } = require('../modal/modal')
 
 router.get('/' , (req,res) => {
     res.render('hi')
@@ -8,7 +9,7 @@ router.get('/' , (req,res) => {
 router.post('/sign-up' , (req,res) => {
 
     //console.log(req.body);
-   const cuss  = new cus ({
+   const customers  = new customer ({
     name : req.body.Name,
     address : req.body.addrress,
     Email : req.body.email,
@@ -17,9 +18,9 @@ router.post('/sign-up' , (req,res) => {
     Phoneno: req.body.phoneNo
    });
 
-   cuss.save();
+   customers.save();
 
-   res.redirect('/');
+   res.render('hii');
   
 });
 
