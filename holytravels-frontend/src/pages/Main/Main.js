@@ -1,10 +1,11 @@
-import { Button } from "@mui/material";
-
+import { Header } from "../../components/Main/Header";
+import { Nav } from "../../components/Main/Nav";
 
 export const Main = () => {
   return (
-    <div>
-      <Button variant="contained">Hello world</Button>
-    </div>
+    <>
+      <Nav />
+      <Header />
+    </>
   );
 };
