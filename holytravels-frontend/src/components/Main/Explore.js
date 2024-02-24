@@ -14,7 +14,7 @@ export const Explore = () => {
       }}
     >
       <Stack width={"50%"}>
-        <NavLink to="/religiousplaces">
+        <NavLink to="/religiousguide">
           <CardMedia
             component="img"
             height="100"
