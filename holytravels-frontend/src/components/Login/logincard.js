@@ -8,12 +8,12 @@ import { TextField } from '@mui/material';;
 export default function LoginCard() {
   return (
     <Card >
-      <CardContent>
-        <TextField variant='outlined' label="UserName"></TextField>
+      <CardContent sx={{flexDirection : 'column' , display : 'flex' , justifyContent : 'space-between' , gap : 2}}>
+        <TextField variant='outlined' label="UserName" ></TextField>
+        <TextField variant='outlined' label="Password" ></TextField>
       </CardContent>
-      <CardActions>
-        <Button size="small">Share</Button>
-        <Button size="small">Learn More</Button>
+      <CardActions sx={{justifyContent : 'center' }} >
+        <Button variant="contained" >Share</Button>
       </CardActions>
     </Card>
   );
