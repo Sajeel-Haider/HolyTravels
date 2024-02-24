@@ -17,9 +17,87 @@ export const Destinations = () => {
 
   return (
     <Stack direction={"column"} justifyContent={"center"} padding={"5%"}>
-      <Stack>
+      <Stack alignItems={"center"}>
         <Typography variant="h4" fontWeight={600}>
-          Explore Top Religious Destinations for Tourism
+          Explore Historical Places
+        </Typography>
+      </Stack>
+      <Stack marginTop={"50px"}>
+        <Grid
+          container
+          justifyContent={"center"}
+          rowSpacing={1}
+          columnSpacing={{ xs: 1, sm: 2, md: 3 }}
+        >
+          <Grid item xs={6}>
+            <ExploreTourCard
+              img1={badshahiMosque}
+              name={"Badshahi Mosque"}
+            ></ExploreTourCard>
+          </Grid>
+          <Grid item xs={6}>
+            <ExploreTourCard
+              img1={faisal}
+              name={"Faisal Mosque"}
+            ></ExploreTourCard>
+          </Grid>
+        </Grid>
+      </Stack>
+      <Stack>
+        <Typography variant="h4" fontWeight={600} alignItems={"center"}>
+          Explore Religious Places
+        </Typography>
+      </Stack>
+      <Stack marginTop={"50px"}>
+        <Grid
+          container
+          justifyContent={"center"}
+          rowSpacing={1}
+          columnSpacing={{ xs: 1, sm: 2, md: 3 }}
+        >
+          <Grid item xs={6}>
+            <ExploreTourCard
+              img1={badshahiMosque}
+              name={"Badshahi Mosque"}
+            ></ExploreTourCard>
+          </Grid>
+          <Grid item xs={6}>
+            <ExploreTourCard
+              img1={faisal}
+              name={"Faisal Mosque"}
+            ></ExploreTourCard>
+          </Grid>
+        </Grid>
+      </Stack>
+      <Stack>
+        <Typography variant="h4" fontWeight={600} alignItems={"center"}>
+          Explore Adventurous Places
+        </Typography>
+      </Stack>
+      <Stack marginTop={"50px"}>
+        <Grid
+          container
+          justifyContent={"center"}
+          rowSpacing={1}
+          columnSpacing={{ xs: 1, sm: 2, md: 3 }}
+        >
+          <Grid item xs={6}>
+            <ExploreTourCard
+              img1={badshahiMosque}
+              name={"Badshahi Mosque"}
+            ></ExploreTourCard>
+          </Grid>
+          <Grid item xs={6}>
+            <ExploreTourCard
+              img1={faisal}
+              name={"Faisal Mosque"}
+            ></ExploreTourCard>
+          </Grid>
+        </Grid>
+      </Stack>
+      <Stack>
+        <Typography variant="h4" fontWeight={600} alignItems={"center"}>
+          Explore Cultural Places
         </Typography>
       </Stack>
       <Stack marginTop={"50px"}>
