@@ -40,11 +40,12 @@ export const ReligiousGuide = () => {
         direction={"column"}
         spacing="3"
         sx={{
+         
           borderRadius: "20px",
           margin: "0% 20%",
         }}
       >
-        <ReligiousGuideCard name={"View Requirments"}></ReligiousGuideCard>
+        <ReligiousGuideCard name={"View Requirments"} ></ReligiousGuideCard>
         <ReligiousGuideCard name={"Travel Preparations"}></ReligiousGuideCard>
         <ReligiousGuideCard name={"Religious Rituals"}></ReligiousGuideCard>
       </Stack>

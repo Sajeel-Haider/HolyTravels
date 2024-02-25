@@ -110,7 +110,7 @@ export const Destinations = () => {
         >
           {culturalPlaces.slice(0, numCulturalPlaces).map((place) => (
             <Grid item xs={4} key={place.name}>
-              <ExploreTourCard img1={place.img} name={place.name}  style={{ width: '500px', height: '250px' }} />
+              <ExploreTourCard img1={place.img} name={place.name}  style={{ width: '250px', height: '250px' }} />
             </Grid>
           ))}
         </Grid>
